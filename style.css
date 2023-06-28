@@ -1,0 +1,40 @@
+header .title {
+  font-family: "Playfair", serif;
+}
+
+.image {
+  background-image: url("/recipe-page-master/photo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 200px;
+}
+
+.main-content .details .ingredients .ingredients-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+.main-content .details .ingredients .cracker {
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-content .details .ingredients .cake {
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-content .details .instructions .instructions-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+.main-content .details .instructions .instructions-details .instruction-section .number-of-section {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 540px) {
+  header .main-text {
+    width: 50%;
+  }
+  .image {
+    height: 500px;
+  }
+}/*# sourceMappingURL=style.css.map */
